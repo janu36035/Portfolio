@@ -1,448 +1,1146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portfolio of Polamreddy Jahnavi - Java Full Stack Developer skilled in Java, Spring Boot, React, MySQL and Web Development.">
+
+    <meta name="keywords"
+        content="Polamreddy Jahnavi, Java Developer, Java Full Stack Developer, Spring Boot, React, MySQL, Software Developer">
+
+    <meta name="author" content="Polamreddy Jahnavi">
+
     <title>Polamreddy Jahnavi | Java Full Stack Developer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 
 <body>
 
-<!-- ================= NAVIGATION ================= -->
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
-<header class="header">
+    <header class="navbar">
 
-    <a href="#" class="logo">Polamreddy Jahnavi</a>
+        <div class="container nav-container">
 
-    <nav class="navbar">
-
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#internships">Internships</a>
-
-    </nav>
-
-</header>
-
-<!-- ================= HERO SECTION ================= -->
-
-<section class="home" id="home">
-
-    <div class="home-content">
-
-        <h3>Hello, I'm</h3>
-
-        <h1>Polamreddy Jahnavi</h1>
-
-        <h3>
-            Java Full Stack
-            <span>Developer</span>
-        </h3>
-
-        <p>
-
-            Passionate Java Full Stack Developer with a strong foundation
-            in Java, HTML, CSS, JavaScript and SQL.
-
-            I enjoy building responsive web applications, solving
-            programming problems and continuously improving my
-            technical skills through real-world projects.
-
-        </p>
-
-        <div class="social-media">
-
-            <a href="https://github.com/janu36035" target="_blank">
-                <i class="fab fa-github"></i>
+            <a href="#home" class="logo">
+               <span> </span>
             </a>
 
-            <a href="https://www.linkedin.com/in/jahnavi-polamreddy-7a403133a" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
+            <nav class="nav-menu">
 
-            <a href="mailto:polamreddyjahnavi@gmail.com">
-                <i class="fas fa-envelope"></i>
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#experience">Experience</a>
+
+                <a href="#education">Education</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <a href="#contact" class="nav-button">
+                Let's Talk
             </a>
 
         </div>
 
-        <div class="buttons">
+    </header>
 
-            <a href="PolamreddyJahnaviResume/Polamreddy Jahnavi.pdf" class="btn">
-                Download Resume
-            </a>
 
-            <a href="#projects" class="btn2">
-                View Projects
-            </a>
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
 
-        </div>
+    <main>
 
-    </div>
+        <section id="home" class="hero">
 
-    <div class="home-image">
+            <div class="container hero-container">
 
-        <img src="Images/profile.jpg" alt="Polamreddy Jahnavi">
+                <!-- LEFT SIDE -->
 
-    </div>
+                <div class="hero-content">
 
-</section>
+                    <p class="hero-greeting">
+                        Hello, I'm
+                    </p>
 
-<!-- ================= ABOUT ================= -->
+                    <h1>
+                        
+                        <span>Polamreddy Jahnavi</span>
+                    </h1>
 
-<section class="about" id="about">
+                    <h2>
+                        Java Full Stack Developer
+                    </h2>
 
-    <h2 class="heading">
-        About <span>Me</span>
-    </h2>
+                    <p class="hero-description">
 
-    <div class="about-container">
+                        I build responsive and user-focused web applications
+                        using Java, Spring Boot, React, JavaScript and MySQL.
 
-        <div class="about-image">
+                        I enjoy solving real-world problems and continuously
+                        improving my development skills through practical projects.
 
-            <img src="Images/profile.jpg" alt="Profile">
+                    </p>
 
-        </div>
 
-        <div class="about-content">
+                    <!-- BUTTONS -->
 
-            <h3>
-             <span class="typing-text"></span>
-             </h3>
+                    <div class="hero-buttons">
 
-            <p>
+                        <a href="#projects" class="btn primary-btn">
+                            View My Work
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
 
-                I am a Computer Science graduate with a CGPA of 8.9,
-                passionate about Java development, networking and modern
-                web technologies.
+                        <a href="./Resume.pdf"
+                            class="btn secondary-btn"
+                            target="_blank">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            View Resume
+                        </a>
 
-                I enjoy learning new technologies, developing secure
-                applications and solving real-world problems.
+                    </div>
 
-                My goal is to contribute to an innovative software team
-                while continuously enhancing my technical skills.
 
-            </p>
+                    <!-- SOCIAL LINKS -->
 
-        </div>
+                    <div class="social-links">
 
-    </div>
+                        <a
+                            href="https://github.com/janu36035"
+                            target="_blank"
+                            aria-label="GitHub">
 
-</section>
+                            <i class="fa-brands fa-github"></i>
 
-<!-- ================= SKILLS ================= -->
+                        </a>
 
-<section class="skills" id="skills">
 
-    <h2 class="heading">
+                        <a
+                            href="https://www.linkedin.com/in/jahnavi-polamreddy-7a403133a"
+                            target="_blank"
+                            aria-label="LinkedIn">
 
-        Technical <span>Skills</span>
+                            <i class="fa-brands fa-linkedin-in"></i>
 
-    </h2>
+                        </a>
 
-    <div class="skills-container">
 
-        <div class="skill-box">
-            <i class="fab fa-java"></i>
-            <h3>Java</h3>
-        </div>
+                        <a
+                            href="mailto:polamreddyjahnavi@gmail.com"
+                            aria-label="Email">
 
-        <div class="skill-box">
-            <i class="fab fa-html5"></i>
-            <h3>HTML5</h3>
-        </div>
+                            <i class="fa-solid fa-envelope"></i>
 
-        <div class="skill-box">
-            <i class="fab fa-css3-alt"></i>
-            <h3>CSS3</h3>
-        </div>
+                        </a>
 
-        <div class="skill-box">
-            <i class="fab fa-js"></i>
-            <h3>JavaScript</h3>
-        </div>
+                    </div>
 
-        <div class="skill-box">
-            <i class="fas fa-database"></i>
-            <h3>SQL</h3>
-        </div>
+                </div>
 
-        <div class="skill-box">
-            <i class="fas fa-network-wired"></i>
-            <h3>Networking</h3>
-        </div>
 
-    </div>
+                <!-- RIGHT SIDE -->
 
-</section>
+                <div class="hero-image-container">
 
-<!-- ================= PROJECTS SECTION ================= -->
+                    <div class="hero-image-circle"></div>
 
-<!-- ================= PROJECTS ================= -->
+                    <img
+                        src="Images/profile.jpeg"
+                        alt="Polamreddy Jahnavi - Java Full Stack Developer"
+                        class="hero-image">
 
-<section class="projects" id="projects">
 
-    <h2 class="heading">My <span>Projects</span></h2>
+                    <!-- Floating Skill Card -->
 
-    <!-- ================= NETWORKING PROJECT ================= -->
+                    <div class="floating-card card-one">
 
-    <div class="project-category">
+                        <i class="fa-brands fa-java"></i>
 
-        <h3><i class="fas fa-network-wired"></i> Networking Project</h3>
+                        <div>
+                            <strong>Java</strong>
+                            <small>Development</small>
+                        </div>
 
-    </div>
+                    </div>
 
-    <div class="project-card">
 
-        <div class="project-content">
+                    <div class="floating-card card-two">
 
-            <h3>AAA Implementation with Device Hardening</h3>
+                        <i class="fa-solid fa-database"></i>
 
-            <p>
-                Designed and implemented a secure enterprise network using
-                Cisco Packet Tracer. Configured VLANs, Inter-VLAN Routing,
-                RADIUS Server, AAA Authentication, SSH and Device Hardening
-                to improve network security and centralized user
-                authentication.
-            </p>
+                        <div>
+                            <strong>MySQL</strong>
+                            <small>Database</small>
+                        </div>
 
-            <div class="tech-stack">
+                    </div>
 
-                <span>Cisco Packet Tracer</span>
-                <span>AAA</span>
-                <span>RADIUS</span>
-                <span>SSH</span>
-                <span>Networking</span>
+
+                    <div class="floating-card card-three">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        <div>
+                            <strong>Full Stack</strong>
+                            <small>Development</small>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="project-buttons">
+        </section>
 
-                <a href="Images/Screenshot 2026-07-24 205204.png"
-                   target="_blank"
-                   class="btn">
 
-                    <i class="fas fa-image"></i>
-                    View Screenshot
+        <!-- =========================
+             QUICK STATS
+        ========================== -->
 
-                </a>
+        <section class="stats">
+
+            <div class="container stats-container">
+
+                <div class="stat-card">
+
+                    <h3>9.06</h3>
+
+                    <p>CGPA</p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <h3>Java</h3>
+
+                    <p>Primary Language</p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <h3>Full Stack</h3>
+
+                    <p>Development Focus</p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <h3>Projects</h3>
+
+                    <p>Practical Experience</p>
+
+                </div>
 
             </div>
 
-        </div>
-
-    </div>
+        </section>
 
 
+        <!-- =========================
+             ABOUT SECTION
+        ========================== -->
 
-    <!-- ================= WEB DEVELOPMENT ================= -->
+        <section id="about" class="section about-section">
 
-    <div class="project-category">
+            <div class="container">
 
-        <h3><i class="fas fa-code"></i> Web Development Projects</h3>
+                <div class="section-heading">
 
-    </div>
+                    <p>ABOUT ME</p>
+
+                    <h2>
+                        Turning ideas into
+                        <span>working applications.</span>
+                    </h2>
+
+                </div>
 
 
-    <!-- AGE CALCULATOR -->
+                <div class="about-container">
 
-    <div class="project-card">
 
-        <div class="project-content">
+                    <!-- IMAGE -->
 
-            <h3>Age Calculator</h3>
+                    <div class="about-image">
+
+                        <img
+                            src="Images/profile.jpg"
+                            alt="Polamreddy Jahnavi">
+
+                    </div>
+
+
+                    <!-- CONTENT -->
+
+                    <div class="about-content">
+
+                        <h3>
+                            Java Full Stack Developer
+                        </h3>
+
+                        <p>
+
+                            I am a Computer Science and Engineering graduate
+                            with a strong interest in Java Full Stack Development.
+
+                            I enjoy creating practical applications that solve
+                            real-world problems while focusing on clean,
+                            responsive and user-friendly interfaces.
+
+                        </p>
+
+
+                        <p>
+
+                            My technical interests include Java,
+                            Spring Boot, React, JavaScript, MySQL,
+                            REST APIs and networking.
+
+                            I continuously improve my skills by building
+                            projects and working with modern development tools.
+
+                        </p>
+
+
+                        <!-- ABOUT HIGHLIGHTS -->
+
+                        <div class="about-highlights">
+
+                            <div class="highlight">
+
+                                <i class="fa-solid fa-code"></i>
+
+                                <div>
+
+                                    <h4>Development</h4>
+
+                                    <p>
+                                        Java & Full Stack Applications
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="highlight">
+
+                                <i class="fa-solid fa-network-wired"></i>
+
+                                <div>
+
+                                    <h4>Networking</h4>
+
+                                    <p>
+                                        Cisco & Network Projects
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="highlight">
+
+                                <i class="fa-solid fa-lightbulb"></i>
+
+                                <div>
+
+                                    <h4>Problem Solving</h4>
+
+                                    <p>
+                                        Practical Project Development
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS SECTION
+        ========================== -->
+
+        <section id="skills" class="section skills-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p>MY SKILLS</p>
+
+                    <h2>
+                        Technologies I
+                        <span>work with.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-java"></i>
+
+                        <h3>Java</h3>
+
+                        <p>
+                            Core Java, OOP, Collections,
+                            Exception Handling and Multithreading
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-leaf"></i>
+
+                        <h3>Spring Boot</h3>
+
+                        <p>
+                            REST APIs, Backend Development
+                            and Application Architecture
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-html5"></i>
+
+                        <h3>HTML5</h3>
+
+                        <p>
+                            Semantic HTML and
+                            responsive web structure
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-css3-alt"></i>
+
+                        <h3>CSS3</h3>
+
+                        <p>
+                            Responsive layouts,
+                            animations and modern UI
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-js"></i>
+
+                        <h3>JavaScript</h3>
+
+                        <p>
+                            DOM, APIs, Events and
+                            interactive web applications
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-react"></i>
+
+                        <h3>React</h3>
+
+                        <p>
+                            Components, Hooks,
+                            Routing and frontend development
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-database"></i>
+
+                        <h3>MySQL</h3>
+
+                        <p>
+                            Database design,
+                            SQL queries and data management
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-network-wired"></i>
+
+                        <h3>Networking</h3>
+
+                        <p>
+                            VLAN, AAA, RADIUS,
+                            SSH and Cisco Packet Tracer
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS SECTION
+        ========================== -->
+
+        <section id="projects" class="section projects-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p>MY PROJECTS</p>
+
+                    <h2>
+                        Projects that showcase
+                        <span>my skills.</span>
+                    </h2>
+
+                </div>
+
+
+                <!-- FEATURED PROJECT -->
+
+                <div class="featured-project">
+
+                    <div class="featured-content">
+
+                        <span class="project-label">
+                            FEATURED PROJECT
+                        </span>
+
+                        <h3>
+                            FleetPro – Vehicle Rental Management System
+                        </h3>
+
+                        <p>
+
+                            A web-based vehicle rental management system
+                            that allows customers to browse vehicles,
+                            select rental dates, calculate rental costs
+                            and make bookings.
+
+                        </p>
+
+
+                        <div class="tech-tags">
+
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>React</span>
+                            <span>MySQL</span>
+                            <span>JWT</span>
+                            <span>REST API</span>
+
+                        </div>
+
+
+                        <div class="project-buttons">
+
+                            <a href="#" class="btn primary-btn">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                            <a href="#" class="btn secondary-btn">
+                                GitHub
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="featured-icon">
+
+                        <i class="fa-solid fa-car"></i>
+
+                    </div>
+
+                </div>
+
+
+                <!-- OTHER PROJECTS -->
+
+                <div class="projects-grid">
+
+
+                    <!-- AAA PROJECT -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img
+                                src="Images/Screenshot 2026-07-24 205204.png"
+                                alt="AAA Implementation with Device Hardening">
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                NETWORKING
+                            </span>
+
+                            <h3>
+                                AAA Implementation with Device Hardening
+                            </h3>
+
+                            <p>
+
+                                A secure network simulation using
+                                Cisco Packet Tracer with VLAN segmentation,
+                                inter-VLAN routing, centralized RADIUS
+                                authentication and SSH-based device security.
+
+                            </p>
+
+
+                            <div class="tech-tags">
+
+                                <span>Cisco Packet Tracer</span>
+                                <span>VLAN</span>
+                                <span>AAA</span>
+                                <span>RADIUS</span>
+                                <span>SSH</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- AGE CALCULATOR -->
+
+                    <article class="project-card">
+
+                        <div class="project-video">
+
+                            <video
+                                controls
+                                muted
+                                loop
+                                playsinline>
+
+                                <source
+                                    src="vedios/Age-Calculator.mp4"
+                                    type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                WEB DEVELOPMENT
+                            </span>
+
+                            <h3>
+                                Age Calculator
+                            </h3>
+
+                            <p>
+
+                                A responsive web application that
+                                calculates a user's age based on
+                                their date of birth.
+
+                            </p>
+
+
+                            <div class="tech-tags">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- STUDENT GRADE CALCULATOR -->
+
+                    <article class="project-card">
+
+                        <div class="project-video">
+
+                            <video
+                                controls
+                                muted
+                                loop
+                                playsinline>
+
+                                <source
+                                    src="vedios/Student-Grade-Calculator.mp4"
+                                    type="video/mp4">
+
+                                Your browser does not support video.
+
+                            </video>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                WEB DEVELOPMENT
+                            </span>
+
+                            <h3>
+                                Student Grade Calculator
+                            </h3>
+
+                            <p>
+
+                                A web application that calculates
+                                student grades based on marks and
+                                displays the result clearly.
+
+                            </p>
+
+
+                            <div class="tech-tags">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- WEATHER APP -->
+
+                    <article class="project-card">
+
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                WEB DEVELOPMENT
+                            </span>
+
+                            <h3>
+                                Weather App
+                            </h3>
+
+                            <p>
+
+                                A weather application that retrieves
+                                weather information using a weather API
+                                and displays the results through a
+                                responsive interface.
+
+                            </p>
+
+
+                            <div class="tech-tags">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Weather API</span>
+
+                            </div>
+
+
+                            <div class="project-links">
+
+                                <a
+                                    href="https://janu36035.github.io/Weather-API/"
+                                    target="_blank">
+
+                                    Live Demo
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                </a>
+
+
+                                <a
+                                    href="https://github.com/janu36035/Weather-API"
+                                    target="_blank">
+
+                                    GitHub
+                                    <i class="fa-brands fa-github"></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE SECTION
+        ========================== -->
+
+        <section id="experience" class="section experience-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p>EXPERIENCE</p>
+
+                    <h2>
+                        My learning &
+                        <span>professional journey.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <!-- EXPERIENCE 1 -->
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-date">
+                                Internship
+                            </span>
+
+                            <h3>
+                                React Developer Intern
+                            </h3>
+
+                            <h4>
+                                Tech Vaseegrah
+                            </h4>
+
+                            <p>
+
+                                Worked on frontend development
+                                and gained practical experience
+                                in building user interfaces
+                                using React.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EXPERIENCE 2 -->
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-date">
+                                Training
+                            </span>
+
+                            <h3>
+                                Java Full Stack Developer
+                            </h3>
+
+                            <h4>
+                                Tap Academy
+                            </h4>
+
+                            <p>
+
+                                Developing skills in Java Full Stack
+                                Development through practical
+                                application development and projects.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EDUCATION SECTION
+        ========================== -->
+
+        <section id="education" class="section education-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p>EDUCATION</p>
+
+                    <h2>
+                        My academic
+                        <span>background.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="education-card">
+
+                    <div class="education-icon">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                    </div>
+
+
+                    <div class="education-content">
+
+                        <span>
+                            2026
+                        </span>
+
+                        <h3>
+                            Bachelor of Technology – Computer Science and Engineering
+                        </h3>
+
+                        <h4>
+                            BTech
+                        </h4>
+
+                        <p>
+                            Graduated in May 2026
+                        </p>
+
+                        <strong>
+                            CGPA: 9.06
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container contact-container">
+
+                <div class="section-heading">
+
+                    <p>CONTACT</p>
+
+                    <h2>
+                        Let's build something
+                        <span>great together.</span>
+                    </h2>
+
+                </div>
+
+
+                <p class="contact-description">
+
+                    I'm open to opportunities where I can contribute
+                    my Java Full Stack development skills and continue
+                    growing as a software professional.
+
+                </p>
+
+
+                <div class="contact-links">
+
+                    <a
+                        href="mailto:polamreddyjahnavi@gmail.com"
+                        class="contact-card">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <div>
+
+                            <span>Email</span>
+
+                            <strong>
+                                polamreddyjahnavi@gmail.com
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/jahnavi-polamreddy-7a403133a"
+                        target="_blank"
+                        class="contact-card">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                        <div>
+
+                            <span>LinkedIn</span>
+
+                            <strong>
+                                Connect with me
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="https://github.com/janu36035"
+                        target="_blank"
+                        class="contact-card">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        <div>
+
+                            <span>GitHub</span>
+
+                            <strong>
+                                View my projects
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
 
             <p>
-                Developed an interactive Age Calculator using HTML, CSS and
-                JavaScript that calculates the user's exact age from the
-                selected date of birth instantly.
+                © 2026 Polamreddy Jahnavi. All rights reserved.
             </p>
 
-            <div class="tech-stack">
+            <a href="#home">
 
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-
-            </div>
-
-            <div class="project-buttons">
-
-                <a href="vedios/Age-Calculator.mp4"
-                   target="_blank"
-                   class="btn">
-
-                    <i class="fas fa-circle-play"></i>
-                    Watch Demo
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- STUDENT GRADE CALCULATOR -->
-
-    <div class="project-card">
-
-        <div class="project-content">
-
-            <h3>Student Grade Calculator</h3>
-
-            <p>
-                Built a responsive web application that calculates total
-                marks, percentage and grades dynamically using JavaScript
-                with instant validation and result generation.
-            </p>
-
-            <div class="tech-stack">
-
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-
-            </div>
-
-            <div class="project-buttons">
-
-                <a href="vedios/Student-Grade-Calculator.mp4"
-                   target="_blank"
-                   class="btn">
-
-                    <i class="fas fa-circle-play"></i>
-                    Watch Demo
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- WEATHER APP -->
-
-<div class="project-card">
-
-    <div class="project-content">
-
-        <h3>🌦 Weather App</h3>
-
-        <p>
-            Developed a responsive Weather Application using HTML, CSS,
-            JavaScript, and WeatherAPI. The application provides real-time
-            weather information, a 3-day forecast, sunrise & sunset timings,
-            humidity, wind speed, visibility, and dynamic weather-based
-            backgrounds with a modern glassmorphism user interface.
-        </p>
-
-        <div class="tech-stack">
-
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>REST API</span>
-            <span>WeatherAPI</span>
-
-        </div>
-
-        <div class="project-buttons">
-
-            <a href="https://janu36035.github.io/Weather-API/"
-               target="_blank"
-               class="btn">
-
-                <i class="fas fa-globe"></i>
-                Live Demo
+                Back to top
+                <i class="fa-solid fa-arrow-up"></i>
 
             </a>
 
-            <a href="https://github.com/janu36035/Weather-API"
-               target="_blank"
-               class="btn">
-
-                <i class="fab fa-github"></i>
-                GitHub
-
-            </a>
-
         </div>
 
-    </div>
+    </footer>
 
-</div>
 
-    </div>
+    <!-- JavaScript -->
 
-</section>
-
-<!-- Projects, Education, Contact and Footer will be added next -->
-
-<!-- ================= INTERNSHIPS ================= -->
-
-<section class="internships" id="internships">
-
-    <h2 class="heading">My <span>Internships</span></h2>
-
-    <div class="internship-container">
-
-        <!-- Internship 1 -->
-        <div class="internship-card">
-            <i class="fas fa-laptop-code"></i>
-
-            <h3>Java Full Stack Developer Intern</h3>
-
-            <h4>Tap Academy</h4>
-
-            <p>
-                Currently undergoing training in Java Full Stack Development,
-                working with Java, HTML, CSS, JavaScript, SQL, and building
-                responsive web applications.
-            </p>
-
-            <span class="status">Ongoing</span>
-        </div>
-
-        <!-- Internship 2 -->
-        <div class="internship-card">
-            <i class="fas fa-code"></i>
-
-            <h3>Advanced Java Programming</h3>
-
-            <h4>Anudip Foundation</h4>
-
-            <p>
-                Working on software development concepts and real-world
-                programming tasks while improving problem-solving and
-                development skills.
-            </p>
-
-            <span class="status">Ongoing</span>
-        </div>
-
-    </div>
-
-</section>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
